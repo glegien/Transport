@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1234" started-at="2012-10-29T17:30:41Z" finished-at="2012-10-29T17:30:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1234" started-at="2012-10-29T17:30:41Z" finished-at="2012-10-29T17:30:42Z">
+      <class name="pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="setUp" is-config="true" duration-ms="15" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1_0_0_1_LastTurn()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="test1_0_0_1_LastTurn" duration-ms="63" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_0_0_1_LastTurn -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="setUp" is-config="true" duration-ms="0" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1_0_1_1_FirstTurn()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="test1_0_1_1_FirstTurn" duration-ms="62" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_0_1_1_FirstTurn -->
+        <test-method status="PASS" signature="test1_1_1_0_FirstTurn()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="test1_1_1_0_FirstTurn" duration-ms="63" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_1_1_0_FirstTurn -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="setUp" is-config="true" duration-ms="0" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="setUp" is-config="true" duration-ms="0" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2_1_1_1()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="test2_1_1_1" duration-ms="62" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_1_1_1 -->
+        <test-method status="PASS" signature="testNoCongestions()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="testNoCongestions" duration-ms="125" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoCongestions -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="setUp" is-config="true" duration-ms="0" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="setUp" is-config="true" duration-ms="0" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOneNotPredicted()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod@176343e]" name="testOneNotPredicted" duration-ms="47" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNotPredicted -->
+      </class> <!-- pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod -->
+      <class name="pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest@11ff1b8]" name="setUp" is-config="true" duration-ms="234" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCongestionAmountAfter1000()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest@11ff1b8]" name="testCongestionAmountAfter1000" duration-ms="157" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCongestionAmountAfter1000 -->
+      </class> <!-- pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest -->
+      <class name="pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2@15fe9c3]" name="setUp" is-config="true" duration-ms="0" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOnePredicted_FirstTurn()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2@15fe9c3]" name="testOnePredicted_FirstTurn" duration-ms="94" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnePredicted_FirstTurn -->
+        <test-method status="PASS" signature="testThreePredicted_FirstTurn()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2@15fe9c3]" name="testThreePredicted_FirstTurn" duration-ms="78" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThreePredicted_FirstTurn -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2@15fe9c3]" name="setUp" is-config="true" duration-ms="0" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2@15fe9c3]" name="setUp" is-config="true" duration-ms="16" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testThreePredicted_FirstTurn2()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2@15fe9c3]" name="testThreePredicted_FirstTurn2" duration-ms="187" started-at="2012-10-29T18:30:42Z" finished-at="2012-10-29T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThreePredicted_FirstTurn2 -->
+      </class> <!-- pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2 -->
+      <class name="pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest">
+        <test-method status="PASS" signature="testOnePeriodAverage_AfterOnePeriod()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest@1a27d4b]" name="testOnePeriodAverage_AfterOnePeriod" duration-ms="16" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnePeriodAverage_AfterOnePeriod -->
+        <test-method status="PASS" signature="testTwoPeriodsAverage_AfterThreePeriods()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest@1a27d4b]" name="testTwoPeriodsAverage_AfterThreePeriods" duration-ms="0" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoPeriodsAverage_AfterThreePeriods -->
+        <test-method status="PASS" signature="testTwoPeriodsAverage_AfterTwoPeriods()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest@1a27d4b]" name="testTwoPeriodsAverage_AfterTwoPeriods" duration-ms="0" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoPeriodsAverage_AfterTwoPeriods -->
+        <test-method status="PASS" signature="testOnePeriodAverage_AfterTwoPeriods()[pri:0, instance:pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest@1a27d4b]" name="testOnePeriodAverage_AfterTwoPeriods" duration-ms="0" started-at="2012-10-29T18:30:41Z" finished-at="2012-10-29T18:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnePeriodAverage_AfterTwoPeriods -->
+      </class> <!-- pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

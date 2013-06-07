@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="595" started-at="2013-05-13T22:24:21Z" finished-at="2013-05-13T22:24:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="595" started-at="2013-05-13T22:24:21Z" finished-at="2013-05-13T22:24:22Z">
+      <class name="pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="375" started-at="2013-05-13T22:24:21Z" finished-at="2013-05-13T22:24:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testCongestionAmountAfter1000()" name="testCongestionAmountAfter1000" duration-ms="203" started-at="2013-05-13T22:24:22Z" finished-at="2013-05-13T22:24:22Z">
+        </test-method>
+      </class>
+      <class name="pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest">
+        <test-method status="PASS" signature="testOnePeriodAverage_AfterOnePeriod()" name="testOnePeriodAverage_AfterOnePeriod" duration-ms="3" started-at="2013-05-13T22:24:22Z" finished-at="2013-05-13T22:24:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testOnePeriodAverage_AfterTwoPeriods()" name="testOnePeriodAverage_AfterTwoPeriods" duration-ms="1" started-at="2013-05-13T22:24:22Z" finished-at="2013-05-13T22:24:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testTwoPeriodsAverage_AfterThreePeriods()" name="testTwoPeriodsAverage_AfterThreePeriods" duration-ms="0" started-at="2013-05-13T22:24:22Z" finished-at="2013-05-13T22:24:22Z">
+        </test-method>
+        <test-method status="PASS" signature="testTwoPeriodsAverage_AfterTwoPeriods()" name="testTwoPeriodsAverage_AfterTwoPeriods" duration-ms="1" started-at="2013-05-13T22:24:22Z" finished-at="2013-05-13T22:24:22Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

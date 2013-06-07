@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<traffic>
+	<scheme count='173'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2 />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+</traffic>

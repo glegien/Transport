@@ -1,0 +1,7 @@
+#Tue Feb 19 11:11:50 CET 2013
+algorithm=sotl
+yellowTransition=3
+travelSchemeFile=E\:\\studia\\8 semestr\\agenty\\Kraksim-29x2012\\aplikacja\\kraksim\\tests\\1\\kra_240000_31x.xml
+workDir=E\:\\studia\\8 semestr\\agenty\\aplikacja\\tests\\1
+statOutFile=E\:\\studia\\8 semestr\\agenty\\Kraksim-29x2012\\aplikacja\\kraksim\\tests\\1\\debug_pred3.s
+cityMapFile=E\:\\studia\\8 semestr\\agenty\\Kraksim-29x2012\\aplikacja\\kraksim\\tests\\1\\krakow_duzy.xml

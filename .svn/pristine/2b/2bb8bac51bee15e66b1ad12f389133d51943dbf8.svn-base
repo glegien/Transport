@@ -1,0 +1,38 @@
+<prediction 
+	cutOutProbability="0.9" 
+	cutOutMinimumNumber="8"
+	neighborhoodSize="1"
+	influencedTimesteps="2"
+	ageingRate="0.99">
+<trafficLevels>
+	<level
+		description="EMPTY"
+		lowerBound="0"
+		upperBound="1.1"
+		influence="-0.3"
+		nextDescription="SMOOTH">
+	</level>
+	<level 
+		description="SMOOTH" 
+		lowerBound="1.1" 
+		upperBound="1.2" 
+		influence="0" 
+		prevDescription="EMPTY" 
+		nextDescription="DENSE">
+	</level>
+	<level 
+		description="DENSE" 
+		lowerBound="1.2" 
+		upperBound="1.5" 
+		influence="1" 
+		prevDescription="SMOOTH" 
+		nextDescription="STUCK">
+	</level>
+	<level 
+		description="STUCK" 
+		lowerBound="1.5" 
+		upperBound="100" 
+		influence="2" 
+		prevDescription="DENSE">
+	</level>
+</trafficLevels></prediction>

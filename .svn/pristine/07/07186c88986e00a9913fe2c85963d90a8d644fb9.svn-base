@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RoadNet>
+  <nodes>
+    <gateway id="G10" x="1004" y="2192" />
+    <gateway id="G11" x="1352" y="1961" />
+    <gateway id="G13" x="1618" y="1364" />
+    <gateway id="G5" x="561" y="1884" />
+    <gateway id="G0" x="1575" y="1245" />
+    <gateway id="G1" x="1632" y="1759" />
+    <gateway id="G2" x="1205" y="1214" />
+    <gateway id="G3" x="860" y="1270" />
+    <gateway id="G4" x="733" y="1618" />
+    <gateway id="G6" x="837" y="2138" />
+    <intersection id="I0" x="1544" y="1392" />
+    <intersection id="I1" x="1196" y="1322" />
+    <intersection id="I3" x="993" y="1467" />
+    <intersection id="I4" x="837" y="1758" />
+    <intersection id="I5" x="1371" y="1772" />
+    <intersection id="I6" x="1277" y="1877" />
+    <intersection id="I7" x="944" y="2114" />
+    <intersection id="I8" x="1574" y="1665" />
+  </nodes>
+  <roads>
+    <road id="roads_0" street="roads_0" from="G10" to="I7">
+      <uplink>
+        <main length="98" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="98" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_7" street="roads_7" from="G4" to="I4">
+      <uplink>
+        <main length="174" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="174" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_4" street="roads_4" from="G5" to="I4">
+      <uplink>
+        <main length="303" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="303" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_1" street="roads_1" from="G6" to="I7">
+      <uplink>
+        <main length="109" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="109" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_17" street="roads_17" from="I0" to="G0">
+      <uplink>
+        <main length="150" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="150" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_18" street="roads_18" from="I0" to="G13">
+      <uplink>
+        <main length="79" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="79" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_21" street="roads_21" from="I0" to="I8">
+      <uplink>
+        <main length="274" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="274" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_15" street="roads_15" from="I1" to="G2">
+      <uplink>
+        <main length="108" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="108" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_16" street="roads_16" from="I1" to="I0">
+      <uplink>
+        <main length="354" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="354" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_19" street="roads_19" from="I1" to="I5">
+      <uplink>
+        <main length="482" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="482" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_12" street="roads_12" from="I3" to="G3">
+      <uplink>
+        <main length="237" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="237" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_5" street="roads_5" from="I3" to="I1">
+      <uplink>
+        <main length="249" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="249" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_9" street="roads_9" from="I3" to="I6">
+      <uplink>
+        <main length="498" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="498" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_8" street="roads_8" from="I4" to="I3">
+      <uplink>
+        <main length="330" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="330" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_20" street="roads_20" from="I5" to="I8">
+      <uplink>
+        <main length="229" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="229" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_11" street="roads_11" from="I6" to="G11">
+      <uplink>
+        <main length="112" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="112" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_10" street="roads_10" from="I6" to="I5">
+      <uplink>
+        <main length="140" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="140" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_2" street="roads_2" from="I7" to="I4">
+      <uplink>
+        <main length="371" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="371" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_3" street="roads_3" from="I7" to="I6">
+      <uplink>
+        <main length="408" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="408" numberOfLanes="1" />
+      </downlink>
+    </road>
+    <road id="roads_22" street="roads_22" from="I8" to="G1">
+      <uplink>
+        <main length="110" numberOfLanes="1" />
+      </uplink>
+      <downlink>
+        <main length="110" numberOfLanes="1" />
+      </downlink>
+    </road>
+  </roads>
+  <intersectionDescriptions>
+    <trafficRootDirectory path="I:\Users\wrozka\Documents\Downloads\Proj7_Kraksim_1\src\KraksimCityDesigner\KraksimCityDesigner - Kopia\testy\Dane-ZDiK" />
+    <trafficMaxTime maxTime="70" />
+    <trafficMinTime minTime="1" />
+    <intersection id="I0">
+      <traffic file="Grzegorzeckie Roundabout.txt">
+        <mapping streetName="2&#x9;Powstania Warszawskiego" nodeId="G0" />
+        <mapping streetName="0&#x9;Kotlarska" nodeId="I8" />
+        <mapping streetName="1&#x9;Grzegorzecka" nodeId="I1" />
+        <mapping streetName="Grzegorzecka" nodeId="I1" />
+        <mapping streetName="Pokoju" nodeId="G13" />
+        <mapping streetName="Powstania Warszawskiego" nodeId="G0" />
+        <mapping streetName="3&#x9;Pokoju" nodeId="G13" />
+        <mapping streetName="Kotlarska" nodeId="I8" />
+      </traffic>
+      <armActions arm="G0" dir="NS">
+        <action lane="0" exit="G13">
+          <rule entrance="I1" lane="0" />
+          <rule entrance="I8" lane="0" />
+        </action>
+        <action lane="0" exit="I1" />
+        <action lane="0" exit="I8">
+          <rule entrance="I1" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="G13" dir="NS">
+        <action lane="0" exit="G0" />
+        <action lane="0" exit="I1">
+          <rule entrance="G0" lane="0" />
+        </action>
+        <action lane="0" exit="I8">
+          <rule entrance="G0" lane="0" />
+          <rule entrance="I1" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I1" dir="NS">
+        <action lane="0" exit="G0">
+          <rule entrance="G13" lane="0" />
+          <rule entrance="I8" lane="0" />
+        </action>
+        <action lane="0" exit="G13">
+          <rule entrance="I8" lane="0" />
+        </action>
+        <action lane="0" exit="I8" />
+      </armActions>
+      <armActions arm="I8" dir="NS">
+        <action lane="0" exit="G0">
+          <rule entrance="G13" lane="0" />
+        </action>
+        <action lane="0" exit="G13" />
+        <action lane="0" exit="I1">
+          <rule entrance="G0" lane="0" />
+          <rule entrance="G13" lane="0" />
+        </action>
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="G0" lane="0" state="green" />
+          <inlane arm="G13" lane="0" state="green" />
+          <inlane arm="I1" lane="0" state="green" />
+          <inlane arm="I8" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+    <intersection id="I1">
+      <traffic file="Grzegorzecka - Daszynskiego Junction.txt">
+        <mapping streetName="Grzegorzecka Pokoju" nodeId="I0" />
+        <mapping streetName="Grzegorzecka Dietla" nodeId="I2" />
+        <mapping streetName="1&#x9;Grzegorzecka Dietla" nodeId="I3" />
+        <mapping streetName="Daszynskiego" nodeId="I5" />
+        <mapping streetName="0&#x9;Daszynskiego" nodeId="I5" />
+        <mapping streetName="2&#x9;Lazarza" nodeId="G2" />
+        <mapping streetName="3&#x9;Grzegorzecka Pokoju" nodeId="I0" />
+        <mapping streetName="Lazarza" nodeId="G2" />
+      </traffic>
+      <armActions arm="G2" dir="NS">
+        <action lane="0" exit="I0">
+          <rule entrance="I5" lane="0" />
+        </action>
+        <action lane="0" exit="I5" />
+      </armActions>
+      <armActions arm="I0" dir="NS">
+        <action lane="0" exit="G2" />
+        <action lane="0" exit="I5">
+          <rule entrance="G2" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I5" dir="NS">
+        <action lane="0" exit="G2">
+          <rule entrance="I0" lane="0" />
+        </action>
+        <action lane="0" exit="I0" />
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="G2" lane="0" state="green" />
+          <inlane arm="I0" lane="0" state="green" />
+          <inlane arm="I2" lane="0" state="green" />
+          <inlane arm="I5" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+    <intersection id="I3">
+      <traffic file="Dietla - Starowislna Junction.txt">
+        <mapping streetName="3&#x9;Dietla Wielopole" nodeId="I1" />
+        <mapping streetName="2&#x9;Starowislna Gertrudy" nodeId="G3" />
+        <mapping streetName="0&#x9;Starowislna Miodowa" nodeId="I6" />
+        <mapping streetName="Starowislna Gertrudy" nodeId="G3" />
+        <mapping streetName="Dietla Wielopole" nodeId="I2" />
+        <mapping streetName="Dietla Krakowska" nodeId="I4" />
+        <mapping streetName="Starowislna Miodowa" nodeId="I6" />
+        <mapping streetName="1&#x9;Dietla Krakowska" nodeId="I4" />
+      </traffic>
+      <armActions arm="G3" dir="NS">
+        <action lane="0" exit="I4" />
+        <action lane="0" exit="I6">
+          <rule entrance="I4" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I4" dir="NS">
+        <action lane="0" exit="G3">
+          <rule entrance="I6" lane="0" />
+        </action>
+        <action lane="0" exit="I6" />
+      </armActions>
+      <armActions arm="I6" dir="NS">
+        <action lane="0" exit="G3" />
+        <action lane="0" exit="I4">
+          <rule entrance="G3" lane="0" />
+        </action>
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="G3" lane="0" state="green" />
+          <inlane arm="I2" lane="0" state="green" />
+          <inlane arm="I4" lane="0" state="green" />
+          <inlane arm="I6" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+    <intersection id="I4">
+      <traffic file="Dietla - Krakowska Junction.txt">
+        <mapping streetName="1&#x9;Dietla" nodeId="G5" />
+        <mapping streetName="0&#x9;Krakowska" nodeId="I7" />
+        <mapping streetName="3&#x9;Dietla Starowislna" nodeId="I3" />
+        <mapping streetName="Krakowska" nodeId="I7" />
+        <mapping streetName="Dietla" nodeId="G5" />
+        <mapping streetName="Stradomska" nodeId="G4" />
+        <mapping streetName="Dietla Starowislna" nodeId="I3" />
+        <mapping streetName="2&#x9;Stradomska" nodeId="G4" />
+      </traffic>
+      <armActions arm="G4" dir="NS">
+        <action lane="0" exit="G5" />
+        <action lane="0" exit="I3">
+          <rule entrance="G5" lane="0" />
+          <rule entrance="I7" lane="0" />
+        </action>
+        <action lane="0" exit="I7">
+          <rule entrance="G5" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="G5" dir="NS">
+        <action lane="0" exit="G4">
+          <rule entrance="I3" lane="0" />
+          <rule entrance="I7" lane="0" />
+        </action>
+        <action lane="0" exit="I3">
+          <rule entrance="I7" lane="0" />
+        </action>
+        <action lane="0" exit="I7" />
+      </armActions>
+      <armActions arm="I3" dir="NS">
+        <action lane="0" exit="G4" />
+        <action lane="0" exit="G5">
+          <rule entrance="G4" lane="0" />
+        </action>
+        <action lane="0" exit="I7">
+          <rule entrance="G4" lane="0" />
+          <rule entrance="G5" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I7" dir="NS">
+        <action lane="0" exit="G4">
+          <rule entrance="I3" lane="0" />
+        </action>
+        <action lane="0" exit="G5">
+          <rule entrance="G4" lane="0" />
+          <rule entrance="I3" lane="0" />
+        </action>
+        <action lane="0" exit="I3" />
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="G4" lane="0" state="green" />
+          <inlane arm="G5" lane="0" state="green" />
+          <inlane arm="I3" lane="0" state="green" />
+          <inlane arm="I7" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+    <intersection id="I5">
+      <traffic file="" />
+      <armActions arm="I1" dir="NS">
+        <action lane="0" exit="I6" />
+        <action lane="0" exit="I8">
+          <rule entrance="I6" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I6" dir="NS">
+        <action lane="0" exit="I1">
+          <rule entrance="I8" lane="0" />
+        </action>
+        <action lane="0" exit="I8" />
+      </armActions>
+      <armActions arm="I8" dir="NS">
+        <action lane="0" exit="I1" />
+        <action lane="0" exit="I6">
+          <rule entrance="I1" lane="0" />
+        </action>
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="I1" lane="0" state="green" />
+          <inlane arm="I6" lane="0" state="green" />
+          <inlane arm="I8" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+    <intersection id="I6">
+      <traffic file="Starowislna - Podgorska Junction.txt">
+        <mapping streetName="2&#x9;Starowislna" nodeId="I3" />
+        <mapping streetName="1&#x9;Podgorska" nodeId="I7" />
+        <mapping streetName="Podgorska" nodeId="I7" />
+        <mapping streetName="Podgorska Kotlarska" nodeId="I5" />
+        <mapping streetName="Starowislna" nodeId="I3" />
+        <mapping streetName="0&#x9;Powstancow Slaskich Most" nodeId="G11" />
+        <mapping streetName="3&#x9;Podgorska Kotlarska" nodeId="I5" />
+        <mapping streetName="Powstancow Slaskich Most" nodeId="G11" />
+      </traffic>
+      <armActions arm="G11" dir="NS">
+        <action lane="0" exit="I3">
+          <rule entrance="I5" lane="0" />
+        </action>
+        <action lane="0" exit="I5" />
+        <action lane="0" exit="I7">
+          <rule entrance="I3" lane="0" />
+          <rule entrance="I5" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I3" dir="NS">
+        <action lane="0" exit="G11">
+          <rule entrance="I7" lane="0" />
+        </action>
+        <action lane="0" exit="I5">
+          <rule entrance="G11" lane="0" />
+          <rule entrance="I7" lane="0" />
+        </action>
+        <action lane="0" exit="I7" />
+      </armActions>
+      <armActions arm="I5" dir="NS">
+        <action lane="0" exit="G11">
+          <rule entrance="I3" lane="0" />
+          <rule entrance="I7" lane="0" />
+        </action>
+        <action lane="0" exit="I3" />
+        <action lane="0" exit="I7">
+          <rule entrance="I3" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I7" dir="NS">
+        <action lane="0" exit="G11" />
+        <action lane="0" exit="I3">
+          <rule entrance="G11" lane="0" />
+          <rule entrance="I5" lane="0" />
+        </action>
+        <action lane="0" exit="I5">
+          <rule entrance="G11" lane="0" />
+        </action>
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="G11" lane="0" state="green" />
+          <inlane arm="I3" lane="0" state="green" />
+          <inlane arm="I5" lane="0" state="green" />
+          <inlane arm="I7" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+    <intersection id="I7">
+      <traffic file="Podgorska - Krakowska Junction.txt">
+        <mapping streetName="0&#x9;Pilsudskiego Most" nodeId="G10" />
+        <mapping streetName="Pilsudskiego Most" nodeId="G10" />
+        <mapping streetName="2&#x9;Krakowska" nodeId="I4" />
+        <mapping streetName="Krakowska" nodeId="I4" />
+        <mapping streetName="Podgorska" nodeId="I6" />
+        <mapping streetName="1&#x9;Rybaki" nodeId="G6" />
+        <mapping streetName="3&#x9;Podgorska" nodeId="I6" />
+        <mapping streetName="Rybaki" nodeId="G6" />
+      </traffic>
+      <armActions arm="G10" dir="NS">
+        <action lane="0" exit="G6">
+          <rule entrance="I4" lane="0" />
+          <rule entrance="I6" lane="0" />
+        </action>
+        <action lane="0" exit="I4">
+          <rule entrance="I6" lane="0" />
+        </action>
+        <action lane="0" exit="I6" />
+      </armActions>
+      <armActions arm="G6" dir="NS">
+        <action lane="0" exit="G10" />
+        <action lane="0" exit="I4">
+          <rule entrance="G10" lane="0" />
+          <rule entrance="I6" lane="0" />
+        </action>
+        <action lane="0" exit="I6">
+          <rule entrance="G10" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I4" dir="NS">
+        <action lane="0" exit="G10">
+          <rule entrance="G6" lane="0" />
+        </action>
+        <action lane="0" exit="G6" />
+        <action lane="0" exit="I6">
+          <rule entrance="G10" lane="0" />
+          <rule entrance="G6" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I6" dir="NS">
+        <action lane="0" exit="G10">
+          <rule entrance="G6" lane="0" />
+          <rule entrance="I4" lane="0" />
+        </action>
+        <action lane="0" exit="G6">
+          <rule entrance="I4" lane="0" />
+        </action>
+        <action lane="0" exit="I4" />
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="G10" lane="0" state="green" />
+          <inlane arm="G6" lane="0" state="green" />
+          <inlane arm="I4" lane="0" state="green" />
+          <inlane arm="I6" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+    <intersection id="I8">
+      <traffic file="none" />
+      <armActions arm="G1" dir="NS">
+        <action lane="0" exit="I0" />
+        <action lane="0" exit="I5">
+          <rule entrance="I0" lane="0" />
+        </action>
+      </armActions>
+      <armActions arm="I0" dir="NS">
+        <action lane="0" exit="G1">
+          <rule entrance="I5" lane="0" />
+        </action>
+        <action lane="0" exit="I5" />
+      </armActions>
+      <armActions arm="I5" dir="NS">
+        <action lane="0" exit="G1" />
+        <action lane="0" exit="I0">
+          <rule entrance="G1" lane="0" />
+        </action>
+      </armActions>
+      <trafficLightsSchedule>
+        <phase num="1" name="phase_1" duration="10">
+          <inlane arm="G1" lane="0" state="green" />
+          <inlane arm="I0" lane="0" state="green" />
+          <inlane arm="I5" lane="0" state="green" />
+        </phase>
+      </trafficLightsSchedule>
+    </intersection>
+  </intersectionDescriptions>
+</RoadNet>
+

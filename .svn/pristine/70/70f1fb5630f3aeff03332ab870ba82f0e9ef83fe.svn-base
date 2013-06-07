@@ -1,0 +1,10 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="0" started-at="2011-04-17T12:25:43Z" finished-at="2011-04-17T12:25:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="0" started-at="2011-04-17T12:25:43Z" finished-at="2011-04-17T12:25:43Z">
+    </test>
+  </suite>
+</testng-results>

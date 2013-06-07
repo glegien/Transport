@@ -1,0 +1,44 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Default suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="e0a3f2">  <td>12/08/31 15:38:17</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:18</td>   <td>906</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1094</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1219</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1344</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1484</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1609</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="79b97c">  <td>12/08/31 15:38:19</td>   <td>1734</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="79b97c">  <td>12/08/31 15:38:19</td>   <td>1969</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="79b97c">  <td>12/08/31 15:38:20</td>   <td>2187</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2.setUp()">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:18</td>   <td>969</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.test1_0_0_1_LastTurn()">test1_0_0_1_LastTurn</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1094</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.test1_0_1_1_FirstTurn()">test1_0_1_1_FirstTurn</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1219</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.test1_1_1_0_FirstTurn()">test1_1_1_0_FirstTurn</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1359</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.test2_1_1_1()">test2_1_1_1</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="e0a3f2">  <td>12/08/31 15:38:18</td>   <td>453</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest.testCongestionAmountAfter1000()">testCongestionAmountAfter1000</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1484</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.testNoCongestions()">testNoCongestions</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="8ba3e4">  <td>12/08/31 15:38:19</td>   <td>1609</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResultTest_ForOnePeriod.testOneNotPredicted()">testOneNotPredicted</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="79b97c">  <td>12/08/31 15:38:19</td>   <td>1734</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2.testOnePredicted_FirstTurn()">testOnePredicted_FirstTurn</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="79b97c">  <td>12/08/31 15:38:19</td>   <td>1969</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2.testThreePredicted_FirstTurn()">testThreePredicted_FirstTurn</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+<tr bgcolor="79b97c">  <td>12/08/31 15:38:20</td>   <td>2187</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="pl.edu.agh.cs.kraksim.routing.weka.timeSeries.TimeSeriesPrediction_ResuotTest_ForOnePeriod2.testThreePredicted_FirstTurn2()">testThreePredicted_FirstTurn2</td> 
+  <td>main@7065437</td>   <td></td> </tr>
+</table>

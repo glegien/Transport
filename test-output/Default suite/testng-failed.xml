@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pl.edu.agh.cs.kraksim.weka.PredictorTest">
+        <methods>
+          <include name="testWorldStateRefreahNeeded300"/>
+          <include name="testWorldStateRefreahNeeded200"/>
+          <include name="setUp"/>
+          <include name="testWorldStateRefreahNeeded400"/>
+          <include name="testWorldStateRefreahNeeded100"/>
+        </methods>
+      </class> <!-- pl.edu.agh.cs.kraksim.weka.PredictorTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

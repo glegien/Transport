@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Gzeg-Komputer" name="pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest" tests="5" failures="0" timestamp="13 May 2013 20:24:22 GMT" time="0.595" errors="0">
+  <testcase name="testCongestionAmountAfter1000" time="0.203" classname="pl.edu.agh.cs.kraksim.weka.timeSeries.TimeSeriesPrediction_CongestionAmountTest"/>
+  <testcase name="testOnePeriodAverage_AfterOnePeriod" time="0.003" classname="pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest"/>
+  <testcase name="testOnePeriodAverage_AfterTwoPeriods" time="0.001" classname="pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest"/>
+  <testcase name="testTwoPeriodsAverage_AfterThreePeriods" time="0.0" classname="pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest"/>
+  <testcase name="testTwoPeriodsAverage_AfterTwoPeriods" time="0.001" classname="pl.edu.agh.cs.kraksim.weka.utils.SimpleMovingAverageTest"/>
+</testsuite>

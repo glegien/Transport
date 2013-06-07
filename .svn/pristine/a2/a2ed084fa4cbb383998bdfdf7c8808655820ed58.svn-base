@@ -1,0 +1,24 @@
+Time: Mon Oct 29 18:30:42 CET 2012
+Total Items: 60
+Total Congestion: 6
+Total predictable congestions: 6
+True Positive: 2
+True Negative: 51
+False Negative 4
+False Positive 3
+
+Congestion class
+Positive: 0,333
+Negative: 0,667
+
+Non congestion class
+Positive: 0,944
+Negative: 0,056
+
+LINK STATS
+
+X4X0:        6  TP:        2[0,333] FN:        4[0,667] TN:        6[0,667] FP:        3[0,333] 
+X4X3:        0  TP:        0[NaN] FN:        0[NaN] TN:       15[1,000] FP:        0[0,000] 
+X4X1:        0  TP:        0[NaN] FN:        0[NaN] TN:       15[1,000] FP:        0[0,000] 
+X4X2:        0  TP:        0[NaN] FN:        0[NaN] TN:       15[1,000] FP:        0[0,000] 
+MAPE: 100.0

@@ -1,0 +1,7 @@
+<prediction 
+	cutOutProbability="0.5" 
+	cutOutMinimumNumber="2"
+	neighborhoodSize="1"
+	influencedTimesteps="2"
+	ageingRate="0.99">
+</prediction>

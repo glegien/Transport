@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<traffic>
+  <scheme count="48">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="304">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="1203">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="26">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="16">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="7">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="44">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="10">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="261">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="14">
+    <gateway id="G10">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="86">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="1392">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="42">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="364">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="18">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="91">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="566">
+    <gateway id="G11">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="161">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="110">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="148">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="2986">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="125">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="14">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="24">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="656">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="305">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="78">
+    <gateway id="G13">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="680">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="110">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="1347">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="1394">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="10">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="15">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="43">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="501">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="51">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="24">
+    <gateway id="G5">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="93">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="383">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="571">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="2740">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="135">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="14">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="14">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="55">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="13">
+    <gateway id="G0">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="162">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="60">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="46">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="56">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="417">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="341">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="32">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="5">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="1583">
+    <gateway id="G1">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="40">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="169">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="136">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="56">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="32">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="5">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="62">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="46">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="1">
+    <gateway id="G2">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="28">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="835">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="5">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="498">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="3">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="23">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="28">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="25">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G3">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="68">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="38">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="100">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="345">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="66">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="5">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="38">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="36">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="13">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+  <scheme count="14">
+    <gateway id="G4">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="210">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="13">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="15">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="27">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="25">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="1">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="4">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="20">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="17">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="3">
+    <gateway id="G6">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G7" />
+  </scheme>
+  <scheme count="69">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G10" />
+  </scheme>
+  <scheme count="149">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G11" />
+  </scheme>
+  <scheme count="256">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G13" />
+  </scheme>
+  <scheme count="123">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G5" />
+  </scheme>
+  <scheme count="69">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G0" />
+  </scheme>
+  <scheme count="314">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G1" />
+  </scheme>
+  <scheme count="83">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G2" />
+  </scheme>
+  <scheme count="0">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G3" />
+  </scheme>
+  <scheme count="83">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G4" />
+  </scheme>
+  <scheme count="14">
+    <gateway id="G7">
+      <uniform a="0" b="900" />
+    </gateway>
+    <gateway id="G6" />
+  </scheme>
+</traffic>
+

@@ -1,0 +1,53 @@
+submodule = timeSeries
+outputMainFolder = folderName
+
+pca = false
+#rule
+worldStateUpdatePeriod = 60
+timeSeriesUpdatePeriod = 1200
+statisticsDumpTime = 2400
+
+maxNumberOfInfluencedLinks = 3
+maxNumberOfInfluencedTimesteps = 6
+minNumberOfInfluencedTimesteps = 1
+predictionSize = 0
+timeTableMultiplier = 5
+evaluationMultiplier = 1
+
+
+#regressionDataType = carsDensity
+#regressionDataType =  carsOut
+#regressionDataType =  carsIn
+#regressionDataType =  carsOn
+regressionDataType = durationLevel
+congestionValue = 2.5
+
+average=simple
+averageSize=10
+#average=running
+#averageWeight=4
+#average=none
+
+carsDensity = false
+carsOut = false
+carsIn = false
+carsOn = false
+durationLevel = true
+evaluation = false
+greenDuration = false
+carsDensityMovingAvg = false
+durationLevelMovingAvg = false
+phase = false
+phaseWillLast = false
+phaseLast = false
+
+#regressionAlgorithm = smoreg
+regressionAlgorithm = repTree
+#regressionAlgorithm = ibk
+#regressionAlgorithm = kstar
+#regressionAlgorithm = m5p
+#regressionAlgorithm = m5rules
+
+ibkNeighbours = 1
+
+discretiser = void

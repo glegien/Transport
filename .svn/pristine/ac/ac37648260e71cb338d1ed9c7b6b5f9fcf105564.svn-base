@@ -1,0 +1,1095 @@
+<?xml version="1.0"?>
+<traffic>
+	<scheme count='173'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='165'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='113'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='161'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='163'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='96'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='73'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='159'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='73'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='159'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='159'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='132'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='101'>
+		<gateway id='G7'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='179'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='195'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='133'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='190'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='192'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='113'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='86'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='188'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='86'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='188'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='188'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='156'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='120'>
+		<gateway id='G6'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='180'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='205'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='134'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='190'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='193'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='114'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='87'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='189'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='87'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='189'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='189'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='157'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='120'>
+		<gateway id='G5'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='88'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='100'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='96'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='93'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='94'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='55'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='42'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='92'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='42'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='92'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='92'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='77'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='59'>
+		<gateway id='G4'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='78'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='89'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='85'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='58'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='84'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='49'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='37'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='82'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='37'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='82'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='82'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='68'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='52'>
+		<gateway id='G3'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='117'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='133'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='127'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='87'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='124'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='74'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='56'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='122'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='56'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='122'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='122'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='102'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='78'>
+		<gateway id='G2'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='78'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='90'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='86'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='58'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='83'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='84'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='38'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='82'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='38'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='82'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='82'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='69'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='52'>
+		<gateway id='G1'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='59'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='67'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='64'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='44'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='63'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='37'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='28'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='51'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='39'>
+		<gateway id='G0'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='183'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='208'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='199'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='136'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='194'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='196'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='116'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='88'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='88'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='192'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='192'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='160'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='122'>
+		<gateway id='G9'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='59'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='67'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='64'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='44'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='63'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='37'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='28'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='62'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='51'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='39'>
+		<gateway id='G8'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='183'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='208'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='199'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='136'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='194'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='196'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='116'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='88'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='192'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='88'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='192'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='160'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='122'>
+		<gateway id='G13'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='159'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='181'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='173'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='118'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='169'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='171'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='101'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='77'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='167'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='77'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='167'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='139'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+	<scheme count='106'>
+		<gateway id='G12'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='137'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='156'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='149'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='102'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='145'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='147'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='87'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='66'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='144'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='66'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='144'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='144'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='92'>
+		<gateway id='G11'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G10' />
+	</scheme>
+	<scheme count='104'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G7' />
+	</scheme>
+	<scheme count='118'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G6' />
+	</scheme>
+	<scheme count='113'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G5' />
+	</scheme>
+	<scheme count='77'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G4' />
+	</scheme>
+	<scheme count='110'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G3' />
+	</scheme>
+	<scheme count='111'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G2' />
+	</scheme>
+	<scheme count='66'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G1' />
+	</scheme>
+	<scheme count='50'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G0' />
+	</scheme>
+	<scheme count='109'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G9' />
+	</scheme>
+	<scheme count='50'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G8' />
+	</scheme>
+	<scheme count='109'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G13' />
+	</scheme>
+	<scheme count='109'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G12' />
+	</scheme>
+	<scheme count='91'>
+		<gateway id='G10'>
+			<uniform a='0' b='8000' />
+		</gateway>
+		<gateway id='G11' />
+	</scheme>
+</traffic>

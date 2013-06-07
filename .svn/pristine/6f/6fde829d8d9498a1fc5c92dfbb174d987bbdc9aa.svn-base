@@ -1,0 +1,2 @@
+configuration = configuration\\kraksim.properties
+predictionConfiguration = configuration\\wekaPrediction.properties

@@ -1,0 +1,24 @@
+Time: Mon May 13 22:24:22 CEST 2013
+Total Items: 20
+Total Congestion: 10
+Total predictable congestions: 10
+True Positive: 7
+True Negative: 7
+False Negative 3
+False Positive 3
+
+Congestion class
+Positive: 0,7
+Negative: 0,3
+
+Non congestion class
+Positive: 0,7
+Negative: 0,3
+
+LINK STATS
+
+X4X2:        5  TP:        5[1,000] FN:        0[0,000] TN:        0[NaN] FP:        0[NaN] 
+X4X3:        3  TP:        0[0,000] FN:        3[1,000] TN:        2[1,000] FP:        0[0,000] 
+X4X0:        2  TP:        2[1,000] FN:        0[0,000] TN:        0[0,000] FP:        3[1,000] 
+X4X1:        0  TP:        0[NaN] FN:        0[NaN] TN:        5[1,000] FP:        0[0,000] 
+MAPE: 26.66666666666667

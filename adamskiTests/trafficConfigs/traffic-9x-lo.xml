@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+czas trwania schematu: 12h = 1000
+
+pomiędzy każdą parą węzłów generowane jest 200 samochodów
+z rozkładem jednostajnym
+-->
+<traffic>
+
+<!--W1-->
+  <scheme count="600">
+    <gateway id="W1">
+      <uniform a="0" b="3600"/>
+    </gateway>
+    <gateway id="E3"/>
+  </scheme>
+
+  <scheme count="1800">
+    <gateway id="W1">
+      <uniform a="0" b="3600"/>
+    </gateway>
+    <gateway id="S3"/>
+  </scheme>
+
+<!--W2-->
+  <scheme count="1000">
+    <gateway id="W2">
+      <uniform a="1500" b="3600"/>
+    </gateway>
+    <gateway id="E2"/>
+  </scheme>
+
+<!--W3-->
+  <scheme count="1000">
+    <gateway id="W3">
+      <uniform a="500" b="3600"/>
+    </gateway>
+    <gateway id="E3"/>
+  </scheme>
+
+  
+<!--E3-->
+  <scheme count="1000">
+    <gateway id="E3">
+      <uniform a="500" b="3600"/>
+    </gateway>
+    <gateway id="W3"/>
+  </scheme>
+
+<!--N2-->
+
+  <scheme count="1000">
+    <gateway id="N2">
+      <uniform a="0" b="3200"/>
+    </gateway>
+    <gateway id="S2"/>
+  </scheme>
+<!--  -->
+
+  <scheme count="300">
+    <gateway id="S1">
+      <uniform a="50" b="3200"/>
+    </gateway>
+    <gateway id="N1"/>
+  </scheme>
+<!--  -->
+
+
+  <scheme count="800">
+    <gateway id="S2">
+      <uniform a="0" b="3600"/>
+    </gateway>
+    <gateway id="N2"/>
+  </scheme>
+<!---->
+
+  <scheme count="80">
+    <gateway id="N1">
+      <uniform a="0" b="200"/>
+    </gateway>
+    <gateway id="S1"/>
+  </scheme>
+  
+</traffic>

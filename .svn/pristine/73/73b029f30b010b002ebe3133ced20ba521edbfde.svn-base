@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<RoadNet>
+
+	<nodes>
+		<gateway id="GN" x="60" y="10" />
+		<gateway id="GS" x="60" y="400" />
+
+		<intersection id="X1" x="60" y="150" />
+		<intersection id="X2" x="60" y="270" />
+		<intersection id="X3" x="140" y="210" />
+
+		<intersection id="X11" x="60" y="70" />
+		<intersection id="X22" x="60" y="350" /><intersection id="X33"
+			x="170" y="210">
+</intersection>
+
+	</nodes>
+
+	<roads>
+
+		<road id="GN_X11" street="ulica Pionowa" from="GN" to="X11">
+			<uplink>
+				<main length="60" numberOfLanes="3" />
+			</uplink>
+			<downlink>
+				<main length="60" numberOfLanes="3" />
+			</downlink>
+		</road>
+
+		<road id="X11_X1" street="ulica Pionowa" from="X11" to="X1">
+			<uplink>
+				<left length="79" />
+				<main length="80" numberOfLanes="3" />
+			</uplink>
+			<downlink>
+				<main length="80" numberOfLanes="3" />
+			</downlink>
+		</road>
+
+		<road id="X1_X2" street="ulica Pionowa" from="X1" to="X2">
+			<uplink>
+				<left length="40" />
+				<main length="120" numberOfLanes="1" />
+			</uplink>
+			<downlink>
+				<main length="120" numberOfLanes="1" />
+				<right length="40" />
+			</downlink>
+		</road>
+
+		<road id="X2_X22" street="ulica Pionowa" from="X2" to="X22">
+			<uplink>
+				<main length="80" numberOfLanes="3" />
+			</uplink>
+			<downlink>
+				<main length="80" numberOfLanes="3" />
+				<right length="79" />
+			</downlink>
+		</road>
+
+
+		<road id="X22_GS" street="ulica Pionowa" from="X22" to="GS">
+			<uplink>
+				<main length="50" numberOfLanes="3" />
+			</uplink>
+			<downlink>
+				<main length="50" numberOfLanes="3" />
+			</downlink>
+		</road>
+
+		<road id="X1_X3" street="ulica Prawoskosna" from="X1" to="X3">
+			<uplink>
+				<main length="100" numberOfLanes="2" />
+			</uplink>
+			<downlink>
+				<main length="100" numberOfLanes="2" />
+			</downlink>
+		</road>
+
+		<road id="X2_X3" street="ulica Lewoskosna" from="X2" to="X3">
+			<uplink>
+				<main length="100" numberOfLanes="2" />
+			</uplink>
+			<downlink>
+				<main length="100" numberOfLanes="2" />
+			</downlink>
+		</road>
+		
+		<road id="X11_X33" street="Obwodnica" from="X11" to="X33">
+			<uplink>
+				<main length="170" numberOfLanes="3" ></main>
+			</uplink>
+			<downlink>
+				<main length="170" numberOfLanes="3" />
+			</downlink>
+		</road>
+		
+		<road id="X33_X22" street="Obwodnica" from="X33" to="X22">
+			<uplink>
+				<main length="170" numberOfLanes="3" />
+			</uplink>
+			<downlink>
+				<main length="170" numberOfLanes="3" />
+			</downlink>
+		</road>
+
+
+
+	</roads>
+
+	<intersectionDescriptions>
+		<intersection id="X1">
+
+			<armActions arm="X11" dir="NS">
+				<action lane="0" exit="X2"></action>
+				<action lane="-1" exit="X3"></action>
+			</armActions>
+
+			<armActions arm="X2" dir="NS">
+				<action lane="0" exit="X11"></action>
+				<action lane="1" exit="X3">
+					<rule entrance="X11" lane="-1" />
+				</action>
+			</armActions>
+
+			<armActions arm="X3" dir="NS">
+				<action lane="0" exit="X11">
+					<rule entrance="X2" lane="0" />
+				</action>
+			</armActions>
+
+			<trafficLightsSchedule>
+
+				<phase num="1">
+					<inlane arm="X11" lane="0" state="green" />
+					<inlane arm="X11" lane="-1" state="green" />
+
+					<inlane arm="X2" lane="0" state="red" />
+					<inlane arm="X2" lane="1" state="red" />
+
+					<inlane arm="X3" lane="0" state="red" />
+				</phase>
+				<phase num="2">
+					<inlane arm="X11" lane="0" state="red" />
+					<inlane arm="X11" lane="-1" state="red" />
+
+					<inlane arm="X2" lane="0" state="green" />
+					<inlane arm="X2" lane="1" state="green" />
+
+					<inlane arm="X3" lane="0" state="red" />
+				</phase>
+				<phase num="3">
+					<inlane arm="X11" lane="0" state="red" />
+					<inlane arm="X11" lane="-1" state="red" />
+
+					<inlane arm="X2" lane="0" state="red" />
+					<inlane arm="X2" lane="1" state="green" />
+
+					<inlane arm="X3" lane="0" state="green" />
+				</phase>
+
+			</trafficLightsSchedule>
+
+		</intersection>
+
+		<intersection id="X2">
+
+			<armActions arm="X22" dir="NS">
+				<action lane="0" exit="X1"></action>
+				<action lane="1" exit="X3"></action>
+			</armActions>
+
+			<armActions arm="X1" dir="NS">
+				<action lane="0" exit="X22"></action>
+				<action lane="-1" exit="X3">
+					<rule entrance="X22" lane="1" />
+				</action>
+			</armActions>
+
+			<armActions arm="X3" dir="NS">
+				<action lane="0" exit="X22">
+					<rule entrance="X1" lane="0" />
+				</action>
+			</armActions>
+
+			<trafficLightsSchedule>
+
+				<phase num="1">
+					<inlane arm="X22" lane="0" state="green" />
+					<inlane arm="X22" lane="1" state="green" />
+
+					<inlane arm="X1" lane="0" state="red" />
+					<inlane arm="X1" lane="-1" state="red" />
+
+					<inlane arm="X3" lane="0" state="red" />
+				</phase>
+				<phase num="2">
+					<inlane arm="X22" lane="0" state="red" />
+					<inlane arm="X22" lane="1" state="red" />
+
+					<inlane arm="X1" lane="0" state="green" />
+					<inlane arm="X1" lane="-1" state="green" />
+
+					<inlane arm="X3" lane="0" state="red" />
+				</phase>
+				<phase num="3">
+					<inlane arm="X22" lane="0" state="red" />
+					<inlane arm="X22" lane="1" state="green" />
+
+					<inlane arm="X1" lane="0" state="red" />
+					<inlane arm="X1" lane="-1" state="red" />
+
+					<inlane arm="X3" lane="0" state="green" />
+				</phase>
+
+			</trafficLightsSchedule>
+
+		</intersection>
+
+		<intersection id="X3">
+
+			
+			
+			
+
+			<armActions arm="X1" dir="NS">
+				<action lane="0" exit="X2"></action>
+			</armActions>
+
+			<armActions arm="X2" dir="NS">
+				<action lane="0" exit="X1"></action>
+			</armActions>
+
+			<trafficLightsSchedule>
+
+				<phase num="1">
+					<inlane arm="X1" lane="0" state="green" />
+					<inlane arm="X2" lane="0" state="green" />
+				</phase>
+
+			</trafficLightsSchedule>
+
+		</intersection>
+
+		<intersection id="X11">
+
+			<armActions arm="GN" dir="NS">
+				<action lane="0" exit="X1"></action>
+				<action lane="0" exit="X33"></action>
+			</armActions>
+
+			<armActions arm="X1" dir="NS">
+				<action lane="0" exit="GN"></action>
+			</armActions>
+			<armActions arm="X33" dir="NS">
+				<action lane="0" exit="GN">
+					<rule entrance="X1" lane="0"></rule></action></armActions>
+			<trafficLightsSchedule>
+				<phase num="1">
+					<inlane arm="GN" lane="0" state="green" />
+
+					<inlane arm="X1" lane="0" state="green" />
+					<inlane arm="X33" lane="0" state="red" />
+				</phase>
+				<phase num="2">
+					<inlane arm="GN" lane="0" state="green" />
+					<inlane arm="X1" lane="0" state="red" />
+					<inlane arm="X33" lane="0" state="green" />
+				</phase>
+				
+			</trafficLightsSchedule>
+			
+
+		</intersection>
+
+		<intersection id="X22">
+
+			<armActions arm="GS" dir="NS">
+				<action lane="0" exit="X2"></action>
+				<action exit="X33" lane="0"></action>
+			</armActions>
+
+			<armActions arm="X2" dir="NS">
+				<action lane="0" exit="GS"></action>
+			</armActions>
+
+			<armActions arm="X33" dir="NS">
+				<action lane="0" exit="GS">
+					<rule entrance="X2" lane="0"></rule></action></armActions>
+
+			<trafficLightsSchedule>
+				<phase num="1">
+					<inlane arm="GS" lane="0" state="green" />
+					<inlane arm="X2" lane="0" state="green" />
+					<inlane arm="X33" lane="0" state="red" />
+				</phase>
+				<phase num="2">
+					<inlane arm="GS" lane="0" state="green" />
+					<inlane arm="X2" lane="0" state="red" ></inlane>
+					<inlane arm="X33" lane="0" state="green" />
+				</phase>
+			</trafficLightsSchedule>
+
+		</intersection>
+
+		<intersection id="X33">
+
+			<armActions arm="X11" dir="NS">
+				<action lane="0" exit="X22"></action>
+			</armActions><armActions arm="X22" dir="NS">
+				<action lane="0" exit="X11"></action>
+			</armActions><trafficLightsSchedule>
+				<phase num="1">
+					<inlane arm="X11" lane="0" state="green" />
+
+					<inlane arm="X22" lane="0" state="green" />
+				</phase>
+			</trafficLightsSchedule>
+
+		</intersection>
+	</intersectionDescriptions>
+
+</RoadNet>
