@@ -91,7 +91,7 @@ public class KmeansClustering {
 			visited.add(current);
 			for(Node neig: graph.getNeighbors(current)){ //aktualizaja odległości
 				if(!visited.contains(neig))
-					distance.put(neig, new Integer((Integer) distance.get(current))); //albo inna odległość
+					distance.put(neig, new Integer((Integer) distance.get(current)+1)); //albo inna odległość
 			}
 			
 			double minMeasure = Double.MAX_VALUE; //nowy current
@@ -107,6 +107,7 @@ public class KmeansClustering {
 			current = minNode;
 		}
 		
+		System.err.println("EEEE"+distance.get(nB));
 		return (Integer) distance.get(nB);
 	}
 	
@@ -155,7 +156,7 @@ public class KmeansClustering {
 			for(Node candidate: candidates){
 				double measure = candidate.getMeasure();
 				double distance = getDistance(node, candidate, graph);
-				double value = measure / (distance*distance);
+				double value = measure / distance;
 				values.add(value);
 			}
 			localWinners = getWinners(candidates, values);
