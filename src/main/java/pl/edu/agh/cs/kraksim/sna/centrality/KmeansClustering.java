@@ -90,8 +90,14 @@ public class KmeansClustering {
 		while(!visited.contains(nB)){
 			visited.add(current);
 			for(Node neig: graph.getNeighbors(current)){ //aktualizaja odległości
-				if(!visited.contains(neig))
-					distance.put(neig, new Integer((Integer) distance.get(current)+1)); //albo inna odległość
+				if(!visited.contains(neig)){
+					//obliczanie odległosci miedzy sąsiadami - "current" i "neig"
+					int dist = 0;
+					dist = (int)graph.findEdge(current, neig).getWeight()*1000; //TODO
+					//System.err.println("D "+dist);
+					//doliczanie odległosci
+					distance.put(neig, new Integer((Integer) distance.get(current) + dist)); 
+				}
 			}
 			
 			double minMeasure = Double.MAX_VALUE; //nowy current
