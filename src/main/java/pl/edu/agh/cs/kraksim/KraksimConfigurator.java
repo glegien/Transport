@@ -202,4 +202,21 @@ public class KraksimConfigurator {
 		result.populateTrafficLevels();
 		return result;
 	}
+	
+	public static String getSNADistanceType() {
+		Properties properties = new Properties();
+		File f = new File("mainConfig.properties");
+		try {
+			InputStream inStream = new FileInputStream(f);
+			properties.load(inStream);
+			inStream.close();
+		} catch (FileNotFoundException e) {
+			logger.error("No file found: " + f.getAbsolutePath());
+			System.exit(-1);
+		} catch (IOException e) {
+			logger.error("Invalid file format: File " + f.getAbsolutePath());
+			System.exit(-1);
+		}
+		return properties.getProperty("SNADistanceType");
+	}
 }

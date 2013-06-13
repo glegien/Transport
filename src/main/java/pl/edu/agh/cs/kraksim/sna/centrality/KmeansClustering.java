@@ -16,6 +16,7 @@ import java.util.Set;
 
 import org.hamcrest.core.IsInstanceOf;
 
+import pl.edu.agh.cs.kraksim.KraksimConfigurator;
 import pl.edu.agh.cs.kraksim.core.Gateway;
 import pl.edu.agh.cs.kraksim.core.Intersection;
 import pl.edu.agh.cs.kraksim.core.Link;
@@ -76,7 +77,19 @@ public class KmeansClustering {
 		return SnaConfigurator.getSnaClusters();
 	}
 	////////////////////////////////////////////////////////////
-	private static int getDistance(Node nA, Node nB, Graph<Node, Link> graph){
+	private static int distanceToAdd(Node nodeA, Node nodeB, Graph<Node, Link> graph, SNADistanceType type)
+	{
+		switch(type){
+			case CrossroadsNumber : return 1;
+			case Weight : return (int) graph.findEdge(nodeA, nodeB).getWeight()*100;
+			case Load : return (int) graph.findEdge(nodeA, nodeB).getLoad()*100;
+		default:
+			break;
+		}		
+		return 0;
+	}
+	
+	private static int getDistance(Node nA, Node nB, Graph<Node, Link> graph, SNADistanceType type){
 		if(nA == nB)
 			return 0;
 		//1
@@ -92,7 +105,7 @@ public class KmeansClustering {
 			for(Node neig: graph.getNeighbors(current)){ //aktualizaja odległości
 				if(!visited.contains(neig)){
 					//obliczanie odległosci miedzy sąsiadami - "current" i "neig"
-					int dist = (int)graph.findEdge(current, neig).getLoad()*1000;
+					int dist = distanceToAdd(current, neig, graph, type);
 					//doliczanie odległosci
 					distance.put(neig, new Integer((Integer) distance.get(current) + dist)); 
 				}
@@ -141,7 +154,7 @@ public class KmeansClustering {
 		return winners;
 	}
 	
-	private static List<Node> voting(List<Node> nodes, Graph<Node, Link> graph) {
+	private static List<Node> voting(List<Node> nodes, Graph<Node, Link> graph, SNADistanceType type) {
 		List<Node> winners = new LinkedList();
 		//struktura do zliczania głosów
 		HashMap<Node, Integer> results = new HashMap<Node, Integer>();
@@ -157,7 +170,7 @@ public class KmeansClustering {
 			List<Double> values = new LinkedList<Double>(); 
 			for(Node candidate: candidates){
 				double measure = candidate.getMeasure();
-				double distance = getDistance(node, candidate, graph);
+				double distance = getDistance(node, candidate, graph, type);
 				double value = measure / distance;
 				values.add(value);
 			}
@@ -182,18 +195,26 @@ public class KmeansClustering {
 	}
 	
 	private static List<Node> getMainNodes(List<Node> nodes, Graph<Node, Link> graph){
-		List<Node> mainNodes = voting(nodes, graph);
+		String distanceType = KraksimConfigurator.getSNADistanceType();
+		SNADistanceType type = null;
+		try{
+			type = SNADistanceType.valueOf(distanceType);
+		}catch(Exception e){
+			//Intentially empty
+		}
+		if(type == null || type == SNADistanceType.Lack)
+			return getMainNodes(nodes);
+		List<Node> mainNodes = voting(nodes, graph, type);
 		return mainNodes;
 	}
-	/* COPY
+	
 	private static List<Node> getMainNodes(List<Node> nodes){
 		List<Node> mainNodes = new ArrayList<Node>();
 		for(int i=0;i<getClaster_number();i++){
 			double maxMeasure = Double.MIN_VALUE;
 			Node maxNode = null;
 			for(int j=0;j<nodes.size();j++){
-				double measure = nodes.get(j).getMeasure(); //TODO TAK BYŁO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-				//double measure = nodes.get(j).getMeasure() / getDistance(nodes.get(j), nB, graph);
+				double measure = nodes.get(j).getMeasure(); 
 				if(!mainNodes.contains(nodes.get(j)) && measure > maxMeasure){
 					maxMeasure = nodes.get(j).getMeasure();
 					maxNode = nodes.get(j);
@@ -202,9 +223,8 @@ public class KmeansClustering {
 			mainNodes.add(maxNode);
 		}
 		return mainNodes;
-		//TODO
+		
 	}
-	*/
 	////////////////////
 	
 	private static Node findClosestMean(Node node, List<Node> means){
