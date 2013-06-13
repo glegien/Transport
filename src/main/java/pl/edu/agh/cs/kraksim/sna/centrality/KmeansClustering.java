@@ -92,9 +92,7 @@ public class KmeansClustering {
 			for(Node neig: graph.getNeighbors(current)){ //aktualizaja odległości
 				if(!visited.contains(neig)){
 					//obliczanie odległosci miedzy sąsiadami - "current" i "neig"
-					int dist = 0;
-					dist = (int)graph.findEdge(current, neig).getWeight()*1000; //TODO
-					//System.err.println("D "+dist);
+					int dist = (int)graph.findEdge(current, neig).getLoad()*1000;
 					//doliczanie odległosci
 					distance.put(neig, new Integer((Integer) distance.get(current) + dist)); 
 				}
@@ -112,8 +110,6 @@ public class KmeansClustering {
 			}
 			current = minNode;
 		}
-		
-		System.err.println("EEEE"+distance.get(nB));
 		return (Integer) distance.get(nB);
 	}
 	
