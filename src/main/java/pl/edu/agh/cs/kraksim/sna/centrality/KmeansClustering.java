@@ -14,6 +14,8 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.hamcrest.core.IsInstanceOf;
 
 import pl.edu.agh.cs.kraksim.KraksimConfigurator;
@@ -76,7 +78,15 @@ public class KmeansClustering {
 	public static int getClaster_number() {
 		return SnaConfigurator.getSnaClusters();
 	}
-	////////////////////////////////////////////////////////////
+	
+	/**
+	 * Wyznacza odlęgłość między dwoma sąsiadującymi węzłami w grafie. 
+	 * @param nodeA
+	 * @param nodeB
+	 * @param graph
+	 * @param type Sposób obliczania odległości mięzy węzłami.
+	 * @return
+	 */
 	private static int distanceToAdd(Node nodeA, Node nodeB, Graph<Node, Link> graph, SNADistanceType type)
 	{
 		switch(type){
@@ -89,16 +99,25 @@ public class KmeansClustering {
 		return 0;
 	}
 	
+	/**
+	 * Oblicza wartość najkrótszej ścieżki w grafie między dwoma wezłami. Koszt krawędzi zalezy od typu
+	 * podanego jako parametr 'type'. Wykorzystuje algorytm Dijkstry.
+	 * @param nA
+	 * @param nB
+	 * @param graph
+	 * @param type Sposób obliczania odległości miedzy wezłami.
+	 * @return
+	 */
 	private static int getDistance(Node nA, Node nB, Graph<Node, Link> graph, SNADistanceType type){
 		if(nA == nB)
 			return 0;
-		//1
+		
 		HashMap<Node, Integer> distance = new HashMap<Node, Integer>();
 		for(Node n: graph.getVertices())
 			distance.put(n, Integer.MAX_VALUE);
 		distance.put(nA, 0);
-		//2
-		List<Node> visited = new LinkedList();
+		
+		List<Node> visited = new LinkedList<Node>();
 		Node current = nA;
 		while(!visited.contains(nB)){
 			visited.add(current);
@@ -126,9 +145,18 @@ public class KmeansClustering {
 		return (Integer) distance.get(nB);
 	}
 	
+	/**
+	 * Dla danego węzła znajduje kandydatów, na których może on głosować. W obecnej wersji
+	 * kazdy z węzłów(nie będący typu Gateway) posiada bierne prawo wyborcze. Oczywiście 
+	 * węzeł nie może głosować na samego siebie. 
+	 * @param node Wezeł dla którego wyznaczamy kandydatów
+	 * @param nodes
+	 * @param graph
+	 * @return Lista wezłów na które można głosować
+	 */
 	private static List<Node> getCandidates(Node node, List<Node> nodes, Graph<Node, Link> graph) {
-		List<Node> candidates = new ArrayList();
-		candidates = new LinkedList(nodes);
+		List<Node> candidates = new ArrayList<Node>();
+		candidates = new LinkedList<Node>(nodes);
 		candidates.remove(node);
 		synchronized(candidates){
 			Iterator<Node> it = candidates.iterator();
@@ -141,8 +169,16 @@ public class KmeansClustering {
 		return candidates;
 	}
 	
+	/**
+	 * Na podstawie dwóch list - listy węzłów i odpowiadających im współczynników
+	 * atrakcyjności wybierany jest jeden węzeł o największej wartości. W modelu 
+	 * tym każdy z węzłów wybiera jednego zwycięzcę. Listy wejściowe sa równoliczne.
+	 * @param candidates Lista węzłów
+	 * @param results Obliczona "atrakcyjność" danego węzła
+	 * @return Lista ze zwycięzcami głosowania. Zawiera jeden element
+	 */
 	private static List<Node> getWinners(List<Node> candidates, List<Double> results) {
-		List<Node> winners = new LinkedList();
+		List<Node> winners = new LinkedList<Node>();
 		Double max = results.get(0);
 		Node winner = candidates.get(0);
 		for(int i=1;i<candidates.size();i++)
@@ -154,8 +190,18 @@ public class KmeansClustering {
 		return winners;
 	}
 	
+	/**
+	 * Procedura głosowania. Kazdy z wezłów głosuje na jenego kandydata. Wyniki sa zliczane,
+	 * zwycięża ten z największa liczbą głosów.
+	 * @param nodes Wezły
+	 * @param graph
+	 * @param type
+	 * @return Lista zawierająca zwycięzców - główne węzły w klastrach. Liczba zwycięzców 
+	 * wyznaczana przez "getClaster_number".
+	 */
 	private static List<Node> voting(List<Node> nodes, Graph<Node, Link> graph, SNADistanceType type) {
-		List<Node> winners = new LinkedList();
+		
+		List<Node> winners = new LinkedList<Node>();
 		//struktura do zliczania głosów
 		HashMap<Node, Integer> results = new HashMap<Node, Integer>();
 		for(Node n: nodes)
@@ -173,7 +219,7 @@ public class KmeansClustering {
 				double distance = getDistance(node, candidate, graph, type);
 				double value = measure / distance;
 				values.add(value);
-			}
+			}			
 			localWinners = getWinners(candidates, values);
 			for(Node n: localWinners)
 					results.put(n, results.get(n)+1);
@@ -194,6 +240,13 @@ public class KmeansClustering {
 		return winners; 
 	}
 	
+	/**
+	 * W zależności od sposobu wyboru głównych węzłów w grafie(ustawione w pliku konfiguracyjnym)
+	 * przechodzi do procedury głosowania lub metody opartej wyłącznie o wagi wezłów.
+	 * @param nodes
+	 * @param graph
+	 * @return
+	 */
 	private static List<Node> getMainNodes(List<Node> nodes, Graph<Node, Link> graph){
 		String distanceType = KraksimConfigurator.getSNADistanceType();
 		SNADistanceType type = null;
@@ -208,6 +261,11 @@ public class KmeansClustering {
 		return mainNodes;
 	}
 	
+	/**
+	 * Wyznaczanie głównych węzłów bez użycia algorytmu głosujacego.
+	 * @param nodes
+	 * @return
+	 */
 	private static List<Node> getMainNodes(List<Node> nodes){
 		List<Node> mainNodes = new ArrayList<Node>();
 		for(int i=0;i<getClaster_number();i++){
@@ -225,7 +283,6 @@ public class KmeansClustering {
 		return mainNodes;
 		
 	}
-	////////////////////
 	
 	private static Node findClosestMean(Node node, List<Node> means){
 		Node closest = null;

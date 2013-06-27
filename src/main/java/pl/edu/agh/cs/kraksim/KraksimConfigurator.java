@@ -203,6 +203,11 @@ public class KraksimConfigurator {
 		return result;
 	}
 	
+	/**
+	 * Pobiera z pliku konfiguracyjnego "mainConfig.properties" tryb, w którym mają być wyznaczane
+	 * główne węzły w grafie.
+	 * @return Wartość property jako String
+	 */
 	public static String getSNADistanceType() {
 		Properties properties = new Properties();
 		File f = new File("mainConfig.properties");
